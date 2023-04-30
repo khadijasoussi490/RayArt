@@ -1,0 +1,100 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+.logo{
+    
+    margin: 15px;}
+    
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+nav .list1 li{
+    display: inline-block;
+    padding: 2px;
+    padding-right: 10px;
+}
+nav .list2 li{
+    display: inline-block;
+    padding: 2px;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+    
+}
+nav .list1 li input{
+    width: 410px;
+    height: 40px;
+    padding: 5px 7px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 2px;
+    color: white;
+}
+nav .list2 li input{
+    width: 410px;
+    height: 40px;
+    padding: 5px 7px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 2px;
+    color: white;
+}
+.mid-section {
+    display: flex;
+    align-items: center;
+margin-top: -20px;}
+  
+.mid-section form {
+    display: flex;
+}
+.mid-section input {
+    width: 400;
+    border-radius: 2px 0 0 2px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+.mid-section button {
+    width: 64px;
+    height: 40px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    padding-top: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.mid-section button:hover {
+    border-color: #c6c6c6;
+    background-color: #f0f0f0;
+}
+/* desgn produit */
+li img {
+    width: 150px;
+    height: 170px;
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+
+.panier{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 150px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.container button, .container button a{
+    background-color: rgb(248, 234, 187);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: white;
+}
+
